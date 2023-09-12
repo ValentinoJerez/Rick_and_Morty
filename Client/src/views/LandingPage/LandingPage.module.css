@@ -1,0 +1,7 @@
+.LandingPage {
+    background-image: url(../../../assets/Imagenes/rick-y-morty-escapando-de-portal_3840x2160_xtrafondos.com.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

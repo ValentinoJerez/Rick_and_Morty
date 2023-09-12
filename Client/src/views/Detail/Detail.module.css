@@ -1,0 +1,20 @@
+.detail {
+    color: white;
+    display: flex;
+    justify-content: space-between; /* Esto distribuirá los elementos en ambos lados */
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+.imagen {
+    /* float: right; */
+    margin-right: 20px;
+  }
+  
+  

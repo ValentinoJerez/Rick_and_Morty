@@ -1,0 +1,9 @@
+body {
+   text-align: center;
+   margin: 0px;
+   background-image: url("../assets/Imagenes/fondo.png");
+   background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

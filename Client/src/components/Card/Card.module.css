@@ -1,0 +1,56 @@
+.Card {
+  margin-top: 30px;
+  width: 300px;
+  height: 400px;
+  box-sizing: border-box;
+  background-color: rgb(31, 30, 30);
+  border-radius: 20px;
+  transition: all 0.3s;
+  grid-template-columns: auto 1fr auto; 
+  position: relative; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.Card:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 1px rgba(32, 255, 24, 0.3);
+}
+
+.Card img {
+  height: 280px;
+  width: 250px;
+}
+
+/* Botones */
+.Card .buttonClose {
+  opacity: 0.7;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  /* background-color: white;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  */
+}
+
+.buttonClose:hover{
+  background-color: red;
+  color: white;
+}
+
+.Card .buttonHeart {
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
