@@ -1,26 +1,37 @@
 .navBar {
-    margin-top: auto;
-    background-color: rgb(16, 17, 16);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    font-size: 1.5em;
-    padding: 10px 15px;
-}
-
-
-.navBarNav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-}
-
-.link{
-    display: inline-block;
-    color: #ffffff;
-    font-size: 1.2em;
-    padding: 10px 15px;
-}
-
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbarBrand {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .rightSection {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navBarNav {
+    margin: 0 10px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .SearchBar {
+    padding: 5px;
+  }
 
 /*Boton random*/
 .random {
