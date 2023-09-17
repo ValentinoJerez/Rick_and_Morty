@@ -1,7 +1,5 @@
 import { useState } from "react";
 import validar from "../../helpers/validation";
-import Logo from "../../../assets/Imagenes/Rick_and_Morty.svg.png"
-
 import style from "./Login.module.css"
 
 function Login({login}) {

@@ -1,8 +1,46 @@
-.LandingPage {
-    background-image: url(../../../assets/Imagenes/rick-y-morty-escapando-de-portal_3840x2160_xtrafondos.com.jpg);
-    background-size: cover;
-    background-position: center;
+.overlay {
+    position: relative;
+    width: 100%;
     height: 100vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+  
+.gifContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%; /* Ajusta el tamaño del GIF según lo necesites */
+    height: auto; /* El alto se ajusta automáticamente según el ancho */
+    z-index: 1;
+}
+  
+.gif {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logoContainer {
+    position: absolute; 
+    align-items: center;
+    width: 5px;
+    top: 1px;
+    left: 80px;
+    z-index: 2;
+}
+  
+.logo {
+    margin-left: 300px;
+    margin-right: auto;
+    width: 680px;
+    height: auto;
+}
+  
+.component {
+    position: relative;
+    z-index: 3;
 }

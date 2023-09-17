@@ -1,6 +1,6 @@
 import SearchBar from "../SearchBar/SearchBar"
 import { NavLink } from "react-router-dom"
-import Logo from "../../../assets/Imagenes/Rick_and_Morty.svg.png"
+
 
 
 import style from "./Nav.module.css"

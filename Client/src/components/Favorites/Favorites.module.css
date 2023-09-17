@@ -3,8 +3,45 @@
     src: url('../../../assets/Fuentes/get_schwifty.ttf') format('truetype'); 
   }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+  }
+  
+.filters > * {
+    margin: 0 5px; /* Agrega un poco de espacio entre los elementos */
+}
+
 .fuente{
     font-family: 'Fuente Rick and Morty', sans-serif;
     font-size: 20px;
     color: rgb(56, 170, 159);
+}
+
+.titulo {
+    font-size: 2em;
+    color: #106c7c; /* Cambia el color según tu preferencia */
+}
+  
+.select, .boton {
+    padding: 8px;
+    font-size: 16px;
+}
+  
+.boton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.boton:hover {
+    background-color: #0056b3;
 }

@@ -18,21 +18,23 @@ function resetHandler(){
 }
 
     return(
-        <div>
+        <div className={style.container}>
             <div className={style.fuente}>
-            <h1>Favoritos</h1>
+            <h1 className={style.titulo}>Favoritos</h1>
             </div>
-            <select onChange={filterHandler}>
+            <div className={style.filters}>
+            <select className={style.select} onChange={filterHandler}>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
                 <option value="unknow">Unknow</option>
                 <option value="Genderless">Genderless</option>
             </select>
-            <select placeholder="Order" onChange={orderHandler}>
-            <option value="Ascendente">Ascendente</option>
-            <option value="Descendente">Descendente</option>
+                <select className={style.select} placeholder="Order" onChange={orderHandler}>
+                <option value="Ascendente">Ascendente</option>
+                <option value="Descendente">Descendente</option>
             </select>
-            <button onClick={resetHandler}>Reset</button>
+            </div>
+            <button onClick={resetHandler} className={style.boton}>Reset</button>
             <Cards characters={favorites}/>
         </div>
     )
