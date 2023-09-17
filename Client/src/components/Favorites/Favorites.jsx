@@ -1,6 +1,7 @@
 import { useSelector, useDispatch } from "react-redux"
 import { filterCards, order, reset } from "../../redux/actions/actions"
 import Cards from "../Cards/Cards";
+import style from "../Favorites/Favorites.module.css"
 
 function Favorites(){
 const dispatch = useDispatch();
@@ -18,7 +19,9 @@ function resetHandler(){
 
     return(
         <div>
+            <div className={style.fuente}>
             <h1>Favoritos</h1>
+            </div>
             <select onChange={filterHandler}>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>

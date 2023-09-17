@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Fuente Rick and Morty'; 
+    src: url('../../../assets/Fuentes/get_schwifty.ttf') format('truetype'); 
+  }
+
+.fuente{
+    font-family: 'Fuente Rick and Morty', sans-serif;
+    font-size: 20px;
+    color: rgb(56, 170, 159);
+}
