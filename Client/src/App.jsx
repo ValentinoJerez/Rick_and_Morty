@@ -39,8 +39,8 @@ async function loginHandler(userData) {
    }
 }
 
-//Hacer funcion Log Out:
-function logOut(userData){
+//Funcion Log Out:
+function logOut(){
    setAccess(false)
 }
 
@@ -96,7 +96,7 @@ function randomHandler(){
 
    return (
       <div className="App">
-         {location.pathname !== "/" && <Nav onSearch={searchHandler} random={randomHandler}/>}
+         {location.pathname !== "/" && <Nav onSearch={searchHandler} random={randomHandler} logOut={logOut}/>}
          <Routes>
             <Route path='/' element={<LandingPage login={loginHandler} />}/>
             <Route path="/Home" 

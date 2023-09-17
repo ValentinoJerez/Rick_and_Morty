@@ -1,5 +1,5 @@
 const axios = require("axios")
-const URL = "http://rickandmortyapi.com/api/character/"
+//const URL = "http://rickandmortyapi.com/api/character/"
 
 async function getCharById(req, res){
     const {id} = req.params

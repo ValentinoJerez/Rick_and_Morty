@@ -3,7 +3,7 @@
   width: 300px;
   height: 400px;
   box-sizing: border-box;
-  background-color: rgb(31, 30, 30);
+  background-image: url("../../../assets/Imagenes/FondoCartass.jpg");
   border-radius: 20px;
   transition: all 0.3s;
   grid-template-columns: auto 1fr auto; 
@@ -12,12 +12,14 @@
   justify-content: center; 
   align-items: center;
   box-sizing: border-box;
+  background-size: cover; 
+  background-position: center;
 }
 
 .Card:hover {
   transform: scale(0.98);
   border-radius: 20px;
-  box-shadow: 0px 0px 30px 1px rgba(32, 255, 24, 0.3);
+  box-shadow: 0px 0px 30px 1px rgba(64, 245, 57, 0.3);
 }
 
 .Card img {

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import validar from "../../helpers/validation";
+import Logo from "../../../assets/Imagenes/Rick_and_Morty.svg.png"
 
 import style from "./Login.module.css"
 
@@ -54,7 +55,9 @@ function Login({login}) {
     return(
         <div className={style.body}>
             <form onSubmit={submitHandler} className={style.form}>
-                <h2>Iniciar Sesion</h2>
+                {/* <div className={style.logo}>
+                    <img src={Logo} alt="Logo Rick and Morty" style={{width: "25vw"}} />
+                </div> */}
                 <label></label>
                 <input 
                 placeholder="Email" 

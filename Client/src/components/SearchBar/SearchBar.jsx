@@ -1,5 +1,5 @@
 import { useState } from "react";
-import searchIcon from "../../../assets/Imagenes/busqueda.svg";
+import searchIcon from "../../../assets/Imagenes/busqueda.png";
 import style from "../SearchBar/SearchBar.module.css"
 
 export default function SearchBar(props) {
@@ -19,9 +19,7 @@ export default function SearchBar(props) {
       <div className={style.SearchBar}>
          <input type='search' onChange={changeHandler} value={id} placeholder="Search" className={style.searchInput}/>
          <div className={style.iconContainer}>
-         <button onClick={()=>onSearch(id)} >
-         <img src={searchIcon} alt="Search Icon" className={style.searchIcon}/>
-         </button> 
+         <button onClick={()=>onSearch(id)} ><img src={searchIcon} alt="Search Icon" className={style.searchIcon}/></button> 
          </div>
       </div>
    );
