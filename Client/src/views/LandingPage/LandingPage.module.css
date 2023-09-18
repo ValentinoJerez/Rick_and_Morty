@@ -5,7 +5,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-image: url(../../../assets/Imagenes/arte-de-estrellas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
   
 .gifContainer {

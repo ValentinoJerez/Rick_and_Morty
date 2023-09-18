@@ -7,34 +7,70 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center; /* Para centrar el texto horizontalmente */
 }
-
+  
 .filters {
     display: flex;
     align-items: center;
-  }
-  
-.filters > * {
-    margin: 0 5px; /* Agrega un poco de espacio entre los elementos */
+    margin: 10px 0; /* Agregamos margen para separar los filtros del título */
 }
-
-.fuente{
+  
+  /* Eliminamos el margen individual de los elementos */
+.select,
+.boton {
+    padding: 5px 8px;
+    font-size: 16px;
+    margin: 0;
+}
+  
+.fuente {
     font-family: 'Fuente Rick and Morty', sans-serif;
     font-size: 20px;
     color: rgb(56, 170, 159);
 }
-
+  
 .titulo {
     font-size: 2em;
-    color: #106c7c; /* Cambia el color según tu preferencia */
+    color: #106c7c;
+}
+ 
+/*Boton Reset*/
+.button {
+    border: none;
+    display: flex;
+    padding: 0.75rem 1.5rem;
+    background-color: #488aec;
+    color: #ffffff;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    user-select: none;
+    gap: 0.75rem;
+    box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+    transition: all .6s ease;
 }
   
-.select, .boton {
-    padding: 8px;
-    font-size: 16px;
+.button:hover {
+    box-shadow: 0 10px 15px -3px #488aec4f, 0 4px 6px -2px #488aec17;
 }
   
-.boton {
+.button:focus,button:active {
+    opacity: .85;
+    box-shadow: none;
+}
+  
+.button svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+/* .boton {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -44,4 +80,4 @@
   
 .boton:hover {
     background-color: #0056b3;
-}
+} */

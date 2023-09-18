@@ -1,5 +1,5 @@
 import Login from "../../components/Login/Login";
-import Portal from "../../../assets/Imagenes/portal.gif"
+import Portal from "../../../assets/Imagenes/gifportal.gif"
 import Logo from "../../../assets/Imagenes/Rick_and_Morty.png"
 import style from "../LandingPage/LandingPage.module.css"
 
