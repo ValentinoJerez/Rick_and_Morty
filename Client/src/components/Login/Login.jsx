@@ -1,5 +1,6 @@
 import { useState } from "react";
 import validar from "../../helpers/validation";
+import Logo from "../../../assets/Imagenes/Rick_and_Morty.png"
 import style from "./Login.module.css"
 
 function Login({login}) {
@@ -53,9 +54,9 @@ function Login({login}) {
     return(
         <div className={style.body}>
             <form onSubmit={submitHandler} className={style.form}>
-                {/* <div className={style.logo}>
+                <div className={style.logo}>
                     <img src={Logo} alt="Logo Rick and Morty" style={{width: "25vw"}} />
-                </div> */}
+                </div>
                 <label></label>
                 <input 
                 placeholder="Email" 
@@ -64,7 +65,7 @@ function Login({login}) {
                 type="email"
                 className={style.email}
                 />
-                <span>{errors.email}</span>
+                <span className={style.error}>{errors.email}</span>
                 <label></label>
                 <input 
                 placeholder="Password" 
@@ -72,12 +73,11 @@ function Login({login}) {
                 onChange={handleChange}
                 type="password"
                 className={style.password}
-                />
+                /><span className={style.error}>{errors.password}</span>
                 <button 
                 disabled={disableHandler()}
                 type="submit"
                 className={style.buttonlogin}>Ingresar</button>
-                <span className={style.errorPassword}>{errors.password}</span>
             </form>
         </div>
     )

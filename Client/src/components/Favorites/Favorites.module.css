@@ -7,16 +7,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; /* Para centrar el texto horizontalmente */
+    text-align: center;
 }
   
 .filters {
     display: flex;
     align-items: center;
-    margin: 10px 0; /* Agregamos margen para separar los filtros del título */
+    margin: 10px 0;
 }
-  
-  /* Eliminamos el margen individual de los elementos */
+
 .select,
 .boton {
     padding: 5px 8px;
@@ -32,7 +31,7 @@
   
 .titulo {
     font-size: 2em;
-    color: #106c7c;
+    color: #46b5c9;
 }
  
 /*Boton Reset*/
@@ -69,15 +68,3 @@
     width: 1.25rem;
     height: 1.25rem;
 }
-
-/* .boton {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-  
-.boton:hover {
-    background-color: #0056b3;
-} */

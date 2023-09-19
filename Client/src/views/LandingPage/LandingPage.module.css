@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../../assets/Imagenes/arte-de-estrellas.jpg);
+    background-image: url(../../../assets/Imagenes/rick-and-morty-login.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,7 +27,7 @@
     object-fit: cover;
 }
 
-.logoContainer {
+/* .logoContainer {
     position: absolute; 
     align-items: center;
     width: 5px;
@@ -41,7 +41,7 @@
     margin-right: auto;
     width: 680px;
     height: auto;
-}
+} */
   
 .component {
     position: relative;

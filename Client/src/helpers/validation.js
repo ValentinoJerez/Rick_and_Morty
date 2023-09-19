@@ -7,17 +7,17 @@ function validar(input){
 
     //Email
     if(!emailRegex.test(input.email)){
-        errors.email= 'el email ingresado no valido'
+        errors.email= '⚠ El email ingresado no es valido ⚠'
     }
     if(input.email.length >= 35){
-        errors.email= 'The length of the field is too long'
+        errors.email= '⚠ El email es muy largo ⚠'
     }
     //Password
     if(!numberRegex.test(input.password)){
-        errors.password='La contraseña debe contener un numero'
+        errors.password='⚠ La contraseña debe contener un numero ⚠'
     }
     if(input.password.length < 6 || input.password.length > 10){
-        errors.password= "The password must have between 6 and 10 characters";
+        errors.password= "⚠ La contraseña ingresada no es valida ⚠";
     }
     return errors;
 }
