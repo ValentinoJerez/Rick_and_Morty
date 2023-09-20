@@ -18,7 +18,7 @@ export default function Nav({onSearch, random, logOut}) {
                 </li>
             </ul>
             <div className={style.logo}>
-                <img src={Logo} alt="Logo Rick and Morty" />
+                <img src={Logo} alt="Logo Rick and Morty"/>
             </div>
                 <div className={style.rightSection}>
                 <li className={style.navBarNav}>

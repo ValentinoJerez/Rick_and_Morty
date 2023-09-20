@@ -4,36 +4,42 @@
     align-items: center;
     background-color: #222836;
     padding: 5px 8px;
-  }
+}
   
-  .navbarBrand {
+.navbarBrand {
     display: flex;
     align-items: center;
     list-style: none;
     padding: 0;
-  }
+    font-size: medium;
+}
 
-  .logo{
+.logo{
     background-size: contain; 
     background-repeat: no-repeat;
     align-items: center;
-  }
+}
+
+.logo img {
+  width: 45%;
+  height: auto;
+}
   
-  .rightSection {
+.rightSection {
     display: flex;
     align-items: center;
     list-style: none;
     padding: 0;
-  }
+}
   
-  .navBarNav {
+.navBarNav {
     margin: 0 10px;
-  }
+}
   
-  .link {
+.link {
     text-decoration: none;
     color: #fff;
-  }
+}
   
 .SearchBar {
   padding: 5px;
@@ -46,6 +52,7 @@
   justify-content: flex-start;
   width: 45px;
   height: 45px;
+  margin-left: 5px;
   border: none;
   border-radius: 50%;
   cursor: pointer;
