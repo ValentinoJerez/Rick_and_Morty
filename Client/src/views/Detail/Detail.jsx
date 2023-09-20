@@ -23,32 +23,23 @@ function Detail(){
 
     return(
         <div className={style.detail}>
-            <div className={style.info}>
-                <h3>Name:</h3>
-                <p>{character?.name}</p>
+            <div className={style.titulo}>
+                <h3>{character?.name}</h3>
             </div>    
             <div className={style.info}>
                 <h3>Status:</h3>
                 <p>{character?.status}</p>
-            </div>
-            <div className={style.info}>
                 <h3>Species:</h3>
                 <p>{character?.species}</p>
-            </div>
-            <div className={style.info}>
                 <h3>Gender:</h3>
                 <p>{character?.gender}</p>
-            </div>
-            <div className={style.info}>
                 <h3>Origin:</h3>
                 <p>{character.origin?.name}</p>  
-            </div>
-            <div className={style.info}>
                 <h3>Location:</h3>
-                <p>{character.location?.name}</p>    
+                <p>{character.location?.name}</p>
             </div>
             <div className={style.imagen}>
-                <img src={character.image} />
+                <img src={character.image} alt="Character Image"/>
             </div>
         </div>
         );

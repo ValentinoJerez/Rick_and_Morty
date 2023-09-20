@@ -1,8 +1,6 @@
 import SearchBar from "../SearchBar/SearchBar"
 import { NavLink } from "react-router-dom"
-
-
-
+import Logo from "../../../assets/Imagenes/rick-and-morty-logo.png"
 import style from "./Nav.module.css"
 
 export default function Nav({onSearch, random, logOut}) {
@@ -19,9 +17,9 @@ export default function Nav({onSearch, random, logOut}) {
                 <NavLink to="/Home" className={style.link}>Home</NavLink>  
                 </li>
             </ul>
-            {/* <div className={style.logo}>
+            <div className={style.logo}>
                 <img src={Logo} alt="Logo Rick and Morty" />
-            </div> */}
+            </div>
                 <div className={style.rightSection}>
                 <li className={style.navBarNav}>
                 <button className={style.random} onClick={random}>RANDOM</button>   

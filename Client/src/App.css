@@ -1,12 +1,12 @@
 body {
   text-align: center;
   margin: 0px;
-  /* background-image: url("../assets/Imagenes/espacio-interestelar.jpg"); */
+  /* background-image: url("../assets/Imagenes/rick-and-morty-inicio.jpg"); */
   background-color: rgb(27, 27, 32);
   background-size: cover;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
   /* background: rgb(7,34,68);
   background: linear-gradient(0deg, rgba(7,34,68,1) 0%, rgba(15,40,22,1) 100%); */
 }

@@ -1,20 +1,39 @@
 .detail {
-    color: white;
-    display: flex;
-    justify-content: space-between; /* Esto distribuirá los elementos en ambos lados */
-    margin-top: 20px;
-    margin-left: 100px;
-  }
-  
+  background-image: url("../../../assets/Imagenes/fondo.png");
+  margin-top: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 20px; /* Añado un margen inferior de 20px */
+  border-radius: 15px;
+  color: white;
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 8px 16px rgba(119, 236, 40, 0.884);
+}
+
+.titulo {
+  grid-column: span 2;
+}
+
 .info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
+  grid-row: 2;
+  text-align: left;
+  margin-left: 40px;
+}
 
 .imagen {
-    /* float: right; */
-    margin-right: 20px;
-  }
-  
-  
+  grid-row: 2;
+  text-align: center;
+}
+
+.imagen img {
+  width: 100%;
+  border-radius: 5%;
+  max-width: 300px;
+  height: auto;
+}

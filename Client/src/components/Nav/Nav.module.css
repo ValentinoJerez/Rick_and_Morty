@@ -13,10 +13,11 @@
     padding: 0;
   }
 
-  /* .logo{
+  .logo{
     background-size: contain; 
     background-repeat: no-repeat;
-  } */
+    align-items: center;
+  }
   
   .rightSection {
     display: flex;
