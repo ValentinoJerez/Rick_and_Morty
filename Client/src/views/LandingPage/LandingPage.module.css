@@ -19,12 +19,38 @@
     width: 45%; /* Ajusta el tamaño del GIF según lo necesites */
     height: auto; /* El alto se ajusta automáticamente según el ancho */
     z-index: 1;
+    
 }
-  
+
 .gif {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    animation-name: spinIn;
+    animation-duration: 1s;
+}
+
+
+@keyframes spinIn {
+    from {
+        width: 0;
+        height: 0;
+    }
+
+    30% {
+        width: 0;
+        height: 0;
+    }
+    
+    to {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.component {
+    position: relative;
+    z-index: 3;
 }
 
 /* .logoContainer {
@@ -43,7 +69,3 @@
     height: auto;
 } */
   
-.component {
-    position: relative;
-    z-index: 3;
-}

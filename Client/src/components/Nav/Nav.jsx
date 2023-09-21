@@ -13,13 +13,12 @@ export default function Nav({onSearch, random, logOut}) {
                 <li className={style.navBarNav}>
                 <NavLink to="/Favorites" className={style.link}>Favorites</NavLink>
                 </li>
-                <li className={style.navBarNav}>
-                <NavLink to="/Home" className={style.link}>Home</NavLink>  
-                </li>
             </ul>
-            <div className={style.logo}>
-                <img src={Logo} alt="Logo Rick and Morty"/>
-            </div>
+                <NavLink to="/Home" className={style.link}>
+                    <div className={style.logo}>
+                    <img src={Logo} alt="Logo Rick and Morty"/>
+                    </div>  
+                </NavLink>
                 <div className={style.rightSection}>
                 <li className={style.navBarNav}>
                 <button className={style.random} onClick={random}>RANDOM</button>   

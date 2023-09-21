@@ -15,6 +15,7 @@
   box-sizing: border-box;
   background-size: cover; 
   background-position: center;
+  cursor: pointer;
 }
 
 .Card:hover {
@@ -40,6 +41,7 @@
 .buttonClose:hover{
   background-color: red;
   color: white;
+  cursor: pointer;
 }
 
 .Card .buttonHeart {
