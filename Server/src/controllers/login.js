@@ -20,3 +20,5 @@ const login = (req, res) => {
         res.status(500).json({error: error.message})
     }
 }
+
+module.exports = {login};
