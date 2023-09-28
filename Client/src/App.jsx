@@ -99,8 +99,7 @@ function randomHandler(){
          {location.pathname !== "/" && <Nav onSearch={searchHandler} random={randomHandler} logOut={logOut}/>}
          <Routes>
             <Route path='/' element={<LandingPage login={loginHandler} />}/>
-            <Route path="/Home" 
-            element={<Cards characters={characters} onClose={closeHandler}/>}/>
+            <Route path="/Home" element={<Cards characters={characters} onClose={closeHandler}/>}/>
             <Route path="/About" element={<About/>}/>
             <Route path="/Detail/:id" element={<Detail/>}/>
             <Route path='/Favorites' element={<Favorites/>}/>

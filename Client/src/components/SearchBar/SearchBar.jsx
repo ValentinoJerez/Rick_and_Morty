@@ -16,15 +16,6 @@ export default function SearchBar(props) {
    }
    
    return (
-      // <div className={style.SearchBar}>
-
-      //    <input type='search' onChange={changeHandler} value={id} placeholder="Search" className={style.searchInput}/>
-
-      //    <div className={style.iconContainer}>
-
-      //    <button onClick={()=>onSearch(id)} ></button> 
-      //    </div>
-      // </div>
       <div className={style.search}>
       <input type="search" className={style.search__input} placeholder="Search" onChange={changeHandler} value={id}/>
       <button className={style.search__button} onClick={()=>onSearch(id)}>
