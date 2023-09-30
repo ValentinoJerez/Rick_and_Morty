@@ -8,10 +8,10 @@ export default function SearchBar(props) {
    const [id, setId] = useState ("") 
 
    //Hago que el valor se guarde
-   function changeHandler(e){
+   function changeHandler(event){
       //Previene bug 
-      e.preventDefault();
-      let input= e.target.value;
+      event.preventDefault();
+      let input= event.target.value;
       setId(input);
    }
    

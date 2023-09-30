@@ -12,7 +12,6 @@ function Detail(){
     const [character, setCharacter] = useState({});
 
     useEffect(() => {
-        console.log(id)
         axios(`http://localhost:3001/rickandmorty/character/${id}`).then(({ data }) => {
            if (data.name) {
               setCharacter(data);

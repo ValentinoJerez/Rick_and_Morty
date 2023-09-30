@@ -64,21 +64,3 @@ import style from "./Card.module.css"
 }
 
 export default Card;
-
-//Creo la funcion
-//UseDispatch
-// const mapDispatchToProps = (dispatch) => {
-//    return {
-//       addFavorite: (character) => dispatch(addFavorite(character)),
-//       removeFavorite: (id) => dispatch(removeFavorite(id)),
-//    };
-// };
-
-//UseSelector
-// const mapStateToProps = (state) => {
-//    return{
-//       favorites: state.favorites,
-//    }
-// }
-
-// export default connect(mapStateToProps, mapDispatchToProps)(Card);
